@@ -7,5 +7,7 @@ vim.cmd("set relativenumber")
 vim.cmd("set clipboard=unnamedplus")
 vim.cmd("set autoindent")
 vim.cmd("set smartindent")
+vim.cmd("set colorcolumn=80")
+vim.cmd("set textwidth=80")
 vim.cmd("imap jj <Esc>")
 vim.g.mapleader = " "
